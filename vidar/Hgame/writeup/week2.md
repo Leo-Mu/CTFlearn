@@ -10,6 +10,12 @@
 
 ![DNS Records](./img/DNS-Records.png)
 
+### 初识二维码[已完成]
+
+下载，解压，得到 DataURI ，复制到 chrome 地址栏，得到缺少定位标志的 QR code图片。数出来这个包含矫正标志和数据区的部分是 26 * 26 的，在线生成一个去除定位标志后剩余 26 * 26 大小的 QR code ，进入 PS 进行拼接，手机扫一扫得到 flag 。
+
+![QR code](./img/QRcode.png)
+
 ## CRYPTO
 
 ### Vigener~[已完成]
